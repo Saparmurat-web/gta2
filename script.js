@@ -142,6 +142,6 @@ function removeProjectileByIndex(index) {
 }
 
 function increaseScore() {
-  score += 250;
+  score += 1;
   scoreEl.innerHTML = score;
 }
